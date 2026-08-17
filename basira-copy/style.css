@@ -598,6 +598,17 @@ p{ line-height: 1.9; text-wrap: pretty; }
 .body-muted-dark{ color: rgba(246,248,246,.55); font-weight: 400; }
 
 /* ---------- Value cards (Slide 10 — القيمة المضافة) ---------- */
+.value-ring{
+  width: 84px;
+  height: 84px;
+  border-radius: 50%;
+  border: 1.5px dashed rgba(201,162,39,.5);
+  background: rgba(15,92,75,.05);
+  color: var(--c-secondary);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
 .value-card{ position: relative; }
 .value-card-num{
   position: absolute;
