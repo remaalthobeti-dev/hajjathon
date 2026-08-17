@@ -598,17 +598,6 @@ p{ line-height: 1.9; text-wrap: pretty; }
 .body-muted-dark{ color: rgba(246,248,246,.55); font-weight: 400; }
 
 /* ---------- Value cards (Slide 10 — القيمة المضافة) ---------- */
-.value-ring{
-  width: 84px;
-  height: 84px;
-  border-radius: 50%;
-  border: 1.5px dashed rgba(201,162,39,.5);
-  background: rgba(15,92,75,.05);
-  color: var(--c-secondary);
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
 .value-card{ position: relative; }
 .value-card-num{
   position: absolute;
@@ -630,15 +619,6 @@ p{ line-height: 1.9; text-wrap: pretty; }
   justify-content: center;
   margin: 0 auto .9rem;
 }
-.value-card-stat{
-  font-size: .7rem;
-  font-weight: 700;
-  color: rgba(8,58,47,.55);
-  border-top: 1px solid rgba(8,58,47,.08);
-  padding-top: .65rem;
-}
-.value-card-stat span{ color: var(--c-gold); font-weight: 800; }
-
 /* ---------- Ambient depth for light slides (single top-center light source) ---------- */
 .slide.bg-white,
 .slide.bg-bgsoft{
